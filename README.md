@@ -12,4 +12,5 @@
 8. Type npm i again
 9. Once node modules are installed, type npm start
 10. Ensure no errors
-11. Enjoy!!
+11. Client is hosted on port 3001
+12. Enjoy!!
