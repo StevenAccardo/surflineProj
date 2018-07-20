@@ -1,0 +1,106 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  min-height: 100%;
+}
+
+.header {
+  height: 80px;
+  background-color: darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3rem;
+  position: relative;
+
+  &__logo {
+    position: absolute;
+    left: 2rem;
+    &-logo {
+      fill: white;
+    }
+
+    &-s {
+      fill: #e6eeff;
+    }
+
+    &-u {
+      fill: #b3ccff;
+    }
+
+    &-r {
+      fill: #80aaff;
+    }
+
+    &-f {
+      fill: #6699ff;
+    }
+
+    &-l {
+      fill: #4d88ff;
+    }
+
+    &-i {
+      fill: #1a66ff;
+    }
+
+    &-n {
+      fill: #0055ff;
+    }
+
+    &-e {
+      fill: #004de6;
+    }
+  }
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: darkblue;
+  padding: 1rem 0;
+  &__condition {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    align-items: center;
+  }
+
+  &__img {
+    height: 3rem;
+    width: 3rem;
+  }
+}
+
+.map {
+  height: 600px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 2rem;
+  box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.leaflet-popup-content {
+  line-height: 0;
+}
+
+.directions {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 5rem;
+}
